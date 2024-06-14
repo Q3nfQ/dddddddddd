@@ -79,8 +79,8 @@ module.exports = {
               const qembed = new EmbedBuilder()
         .setAuthor({
         name: 'Added Album Songs to Queue',
-        iconURL: 'https://cdn.discordapp.com/attachments/1156866389819281418/1157218651179597884/1213-verified.gif', 
-        url: 'https://discord.gg/FUEHs7RCqz'
+        iconURL: 'https://cdn.discordapp.com/attachments/1163577871265185865/1249117234614243561/standard.gif?ex=666c1154&is=666abfd4&hm=c74d3989f1da8f558525cfdd97673c02c73bd2f6ad3e562fb338b7c3a718ab46&', 
+        url: 'https://discord.gg/b-b'
     })
         .setColor('#14bdff')
         .setFooter({ text: 'Use /queue for more Information' });
