@@ -1,18 +1,11 @@
 /*
-
-  ________.__                        _____.___.___________
- /  _____/|  | _____    ____  ____   \__  |   |\__    ___/
-/   \  ___|  | \__  \ _/ ___\/ __ \   /   |   |  |    |   
-\    \_\  \  |__/ __ \\  \__\  ___/   \____   |  |    |   
- \______  /____(____  /\___  >___  >  / ______|  |____|   
-        \/          \/     \/    \/   \/                  
+           
 
 ╔════════════════════════════════════════════════════════════════════════╗
 ║                                                                        ║
-║  ## Created by GlaceYT!                                                ║
+║  ## Created by bad boys!                                               ║
 ║  ## Feel free to utilize any portion of the code                       ║
-║  ## DISCORD :  https://discord.com/invite/xQF9f9yUEM                   ║
-║  ## YouTube : https://www.youtube.com/@GlaceYt                         ║
+║  ## DISCORD :  https://discord.com/invite/b-b                          ║
 ║                                                                        ║
 ╚════════════════════════════════════════════════════════════════════════╝
 
@@ -70,7 +63,7 @@ module.exports = {
           .setAuthor({
         name: 'Your Music! Your Rules!',
         iconURL: 'https://cdn.discordapp.com/attachments/1156866389819281418/1157528025739563088/5657-volume-icon.png?ex=6518ef7b&is=65179dfb&hm=1797c2830537a28b5c6a57564517cc509146d02383a69fb4239d7b5d55aceeed&', 
-        url: 'https://discord.gg/FUEHs7RCqz'
+        url: 'https://discord.gg/b-b'
     })
           .setDescription(`**Adjusting Volume : ** **${vol}/${maxVol}**`);
 
@@ -84,20 +77,13 @@ module.exports = {
   },
 };
 /*
-
-  ________.__                        _____.___.___________
- /  _____/|  | _____    ____  ____   \__  |   |\__    ___/
-/   \  ___|  | \__  \ _/ ___\/ __ \   /   |   |  |    |   
-\    \_\  \  |__/ __ \\  \__\  ___/   \____   |  |    |   
- \______  /____(____  /\___  >___  >  / ______|  |____|   
-        \/          \/     \/    \/   \/                  
+           
 
 ╔════════════════════════════════════════════════════════════════════════╗
 ║                                                                        ║
-║  ## Created by GlaceYT!                                                ║
+║  ## Created by bad boys!                                               ║
 ║  ## Feel free to utilize any portion of the code                       ║
-║  ## DISCORD :  https://discord.com/invite/xQF9f9yUEM                   ║
-║  ## YouTube : https://www.youtube.com/@GlaceYt                         ║
+║  ## DISCORD :  https://discord.com/invite/b-b                          ║
 ║                                                                        ║
 ╚════════════════════════════════════════════════════════════════════════╝
 
