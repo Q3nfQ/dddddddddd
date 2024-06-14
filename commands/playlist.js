@@ -154,8 +154,8 @@ module.exports = {
   .setColor('#00ff00')
           .setAuthor({
             name: 'Album Created Sucessfully',
-            iconURL: 'https://cdn.discordapp.com/attachments/1213421081226903552/1215554404527116288/7762-verified-blue.gif',
-            url: 'https://discord.gg/FUEHs7RCqz'
+            iconURL: 'https://cdn.discordapp.com/attachments/1163577871265185865/1249117234614243561/standard.gif?ex=666c1154&is=666abfd4&hm=c74d3989f1da8f558525cfdd97673c02c73bd2f6ad3e562fb338b7c3a718ab46&',
+            url: 'https://discord.gg/b-b'
           })
   .setDescription(`Hey <@${interaction.member.id}>, your album has been created successfully! 🎉`)
   .setTimestamp();
@@ -213,8 +213,8 @@ await interaction.editReply({
   .setColor('#00ff00')
           .setAuthor({
             name: 'Album Deleted Sucessfully',
-            iconURL: 'https://cdn.discordapp.com/attachments/1213421081226903552/1215554404527116288/7762-verified-blue.gif',
-            url: 'https://discord.gg/FUEHs7RCqz'
+            iconURL: 'https://cdn.discordapp.com/attachments/1163577871265185865/1249117234614243561/standard.gif?ex=666c1154&is=666abfd4&hm=c74d3989f1da8f558525cfdd97673c02c73bd2f6ad3e562fb338b7c3a718ab46&',
+            url: 'https://discord.gg/b-b'
           })
   .setDescription(`Hey <@${interaction.member.id}>, your album has been Deleted successfully! ✨`)
   .setTimestamp();
@@ -254,8 +254,8 @@ await interaction.editReply({
         .setColor('#0099ff')
        .setAuthor({
           name: 'Song Added to Your Album',
-          iconURL: 'https://cdn.discordapp.com/attachments/1213421081226903552/1213430944007061574/6943_Verified.gif',
-          url: 'https://discord.gg/FUEHs7RCqz'
+          iconURL: 'https://cdn.discordapp.com/attachments/1163577871265185865/1249117234614243561/standard.gif?ex=666c1154&is=666abfd4&hm=c74d3989f1da8f558525cfdd97673c02c73bd2f6ad3e562fb338b7c3a718ab46&',
+          url: 'https://discord.gg/b-b'
         })
         .setDescription(`Hey <@${interaction.member.id}>, your song has been Added successfully! ✨`)
         .setFooter({ text: 'YouTube - RTX GAMING' })
@@ -323,8 +323,8 @@ await interaction.editReply({
   .setColor('#00ff00')
           .setAuthor({
             name: 'Song Removed Sucessfully',
-            iconURL: 'https://cdn.discordapp.com/attachments/1213421081226903552/1215554404527116288/7762-verified-blue.gif',
-            url: 'https://discord.gg/FUEHs7RCqz'
+            iconURL: 'https://cdn.discordapp.com/attachments/1163577871265185865/1249117234614243561/standard.gif?ex=666c1154&is=666abfd4&hm=c74d3989f1da8f558525cfdd97673c02c73bd2f6ad3e562fb338b7c3a718ab46&',
+            url: 'https://discord.gg/b-b'
           })
   .setDescription(`Hey <@${interaction.member.id}>, your song has been Removed successfully! ✨`)
   .setTimestamp();
@@ -403,8 +403,8 @@ await interaction.editReply({
           return new EmbedBuilder()
            .setAuthor({
           name: 'Album Songs',
-          iconURL: 'https://cdn.discordapp.com/attachments/1213421081226903552/1213422313035407360/8218-alert.gif',
-          url: 'https://discord.gg/FUEHs7RCqz'
+          iconURL: 'https://cdn.discordapp.com/attachments/1163577871265185865/1249117234614243561/standard.gif?ex=666c1154&is=666abfd4&hm=c74d3989f1da8f558525cfdd97673c02c73bd2f6ad3e562fb338b7c3a718ab46&',
+          url: 'https://discord.gg/b-b'
         })
             .setThumbnail(interaction.user.displayAvatarURL({ size: 2048, dynamic: true }))
             .setColor(client.config.embedColor) 
@@ -500,8 +500,8 @@ await interaction.editReply({
         const embed = new EmbedBuilder()
           .setAuthor({
             name: 'Your Albums',
-            iconURL: 'https://cdn.discordapp.com/attachments/1213421081226903552/1213422313035407360/8218-alert.gif',
-            url: 'https://discord.gg/FUEHs7RCqz'
+            iconURL: 'https://cdn.discordapp.com/attachments/1163577871265185865/1249117234614243561/standard.gif?ex=666c1154&is=666abfd4&hm=c74d3989f1da8f558525cfdd97673c02c73bd2f6ad3e562fb338b7c3a718ab46&',
+            url: 'https://discord.gg/b-b'
           })
           .setColor(client.config.embedColor)
           .setDescription(`\n${playlist?.playlist?.map(data =>
@@ -564,8 +564,8 @@ await interaction.editReply({
           return new EmbedBuilder()
             .setAuthor({
               name: 'Top Albums',
-              iconURL: 'https://cdn.discordapp.com/attachments/1213421081226903552/1213422313035407360/8218-alert.gif',
-              url: 'https://discord.gg/FUEHs7RCqz'
+              iconURL: 'https://cdn.discordapp.com/attachments/1163577871265185865/1249117234614243561/standard.gif?ex=666c1154&is=666abfd4&hm=c74d3989f1da8f558525cfdd97673c02c73bd2f6ad3e562fb338b7c3a718ab46&',
+              url: 'https://discord.gg/b-b'
             })
             .setThumbnail(interaction.user.displayAvatarURL({ size: 2048, dynamic: true }))
             .setColor(client.config.embedColor)
@@ -643,8 +643,8 @@ await interaction.editReply({
             const embed = new EmbedBuilder()
               .setAuthor({
           name: 'Top Albums',
-          iconURL: 'https://cdn.discordapp.com/attachments/1213421081226903552/1213422313035407360/8218-alert.gif',
-          url: 'https://discord.gg/FUEHs7RCqz'
+          iconURL: 'https://cdn.discordapp.com/attachments/1163577871265185865/1249117234614243561/standard.gif?ex=666c1154&is=666abfd4&hm=c74d3989f1da8f558525cfdd97673c02c73bd2f6ad3e562fb338b7c3a718ab46&',
+          url: 'https://discord.gg/b-b'
         })
               .setThumbnail(interaction.user.displayAvatarURL({ size: 2048, dynamic: true }))
               .setColor(client.config.embedColor)
