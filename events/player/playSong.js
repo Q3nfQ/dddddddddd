@@ -9,12 +9,12 @@ module.exports = async (client, queue, song) => {
       .setAuthor({
         name: 'Currently playing a Track',
         iconURL: 'https://cdn.discordapp.com/attachments/1140841446228897932/1144671132948103208/giphy.gif', 
-        url: 'https://discord.gg/FUEHs7RCqz'
+        url: 'https://discord.gg/b-b'
     })
     .setDescription(`\n ‎ \n▶️ **Details :** **${song?.name}**\n▶️ **Enjoy the Ultimate Music Experience. ** \n▶️ **If link breaks playback try to give query.**`)
 .setImage(queue.songs[0].thumbnail)
     .setColor('#FF0000')
-    .setFooter({ text: 'More info - Use /help command [GlaceYT]' });
+    .setFooter({ text: 'More info - Use /help command [b-b]' });
      
       queue?.textChannel?.send({ embeds: [embed] }).catch(e => { });
     }
@@ -23,21 +23,16 @@ module.exports = async (client, queue, song) => {
 
 /*
 
-  ________.__                        _____.___.___________
- /  _____/|  | _____    ____  ____   \__  |   |\__    ___/
-/   \  ___|  | \__  \ _/ ___\/ __ \   /   |   |  |    |   
-\    \_\  \  |__/ __ \\  \__\  ___/   \____   |  |    |   
- \______  /____(____  /\___  >___  >  / ______|  |____|   
-        \/          \/     \/    \/   \/                  
+         
 
 ╔════════════════════════════════════════════════════════════════════════╗
 ║                                                                        ║
-║  ## Created by GlaceYT!                                                ║
+║  ## Created by Bander!                                                ║
 ║  ## Feel free to utilize any portion of the code                       ║
-║  ## DISCORD :  https://discord.com/invite/xQF9f9yUEM                   ║
-║  ## YouTube : https://www.youtube.com/@GlaceYt                         ║
+║  ## DISCORD :  https://discord.com/invite/B-B                          ║
 ║                                                                        ║
 ╚════════════════════════════════════════════════════════════════════════╝
 
 
 */
+
