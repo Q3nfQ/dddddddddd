@@ -21,7 +21,7 @@ module.exports = async (client) => {
 if (config.mongodbURL || process.env.MONGO) {
 
 const { REST } = require("@discordjs/rest");
-const { Routes } = require("discord-api-types/v10");
+const { Routes } = require("discord-api-types/v4.00");
 const rest = new REST({ version: "10" }).setToken(config.TOKEN || process.env.TOKEN);
 (async () => {
 try {
