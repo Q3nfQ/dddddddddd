@@ -28,7 +28,7 @@ module.exports = {
 
   sponsor: {
     status: true,
-    url: "https://www.youtube.com/@GlaceYT",
+    url: "https://discord.com/invite/b-b",
   },
 
   voteManager: {
